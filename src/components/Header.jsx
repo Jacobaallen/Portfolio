@@ -14,6 +14,8 @@ class Header extends Component{
         <Link to="/social-media">Social Media</Link>
         <Link to="/contact">Contact</Link>
       </ul>
+    </div>
+  </div>
     )
   }
 }
