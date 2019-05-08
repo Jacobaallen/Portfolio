@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from './About';
-import Home from './Home';
-import Header from './Header';
-import Footer from './Footer';
+import About from './components/About';
+import home from './components/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import portfolio from './components/Portfolio'
+import resume from './components/Resume';
 
 class App extends React.Component {
   render () {
