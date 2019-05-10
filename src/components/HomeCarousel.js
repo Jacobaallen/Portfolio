@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-class DemoCarousel extends Component {
+class HomeCarousel extends Component {
     render() {
         return (
             <Carousel autoPlay
@@ -31,4 +31,4 @@ class DemoCarousel extends Component {
     }
 };
 
-export default DemoCarousel
+export default HomeCarousel

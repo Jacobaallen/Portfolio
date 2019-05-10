@@ -1,8 +1,10 @@
 import React from 'react';
-import DemoCarousel from './Carousel'
+import HomeCarousel from './HomeCarousel';
+
 
 class Home extends React.Component {
  render() {
+   return (
    <div className="master">
     <header>
       <div className = "HomeCarousel">
@@ -10,7 +12,6 @@ class Home extends React.Component {
         </div>
     </header>
    </div>
-    hea
    )
  }
 }
