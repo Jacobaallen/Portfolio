@@ -12,10 +12,10 @@ class HomeCarousel extends Component {
                     <img src="" alt="patreon"/>
                 </div>
                 <div>
-                    <img src="mainDish.jpeg" alt="Art"/>
+                    <img src="" alt="art"/>
                 </div>
                 <div>
-                    <img src="" alt=""/>
+                    <img src="" alt="photo"/>
                 </div>
                 <div>
                     <img src="" alt=""/>
