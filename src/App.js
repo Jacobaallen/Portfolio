@@ -4,7 +4,6 @@ import About from './components/About';
 import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
 import Socialmedia from './components/Socialmedia';
 import Contact from './components/Socialmedia';
@@ -17,7 +16,6 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
-          <Route path="/portfolio" component={Portfolio} />
           <Route path="/Socialmedia" component={Socialmedia} />
           <Route path="/contact" component={Contact} />
          <Footer/>
