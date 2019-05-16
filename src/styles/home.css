@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.aboutColumn {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.masterWhatIDo {
+  margin: auto;
+  width: 60%;
+  height: 50%;
+  padding: 10px;
+
+}
