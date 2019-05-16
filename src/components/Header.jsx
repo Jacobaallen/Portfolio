@@ -9,9 +9,6 @@ class Header extends Component{
       <div className="Links">
       <ul>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/social-media">Social Media</Link>
-        <Link to="/contact">Contact</Link>
       </ul>
     </div>
   </div>

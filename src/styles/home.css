@@ -15,10 +15,15 @@ body {
   padding: 15px;
 }
 
-.masterWhatIDo {
-  margin: auto;
-  width: 60%;
-  height: 50%;
-  padding: 10px;
+.bgimage-2 {
+  background-image: url("/assets/images/codebackdrop.jpeg")no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
 
+.HomeCarousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

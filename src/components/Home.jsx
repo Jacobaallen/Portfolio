@@ -8,9 +8,7 @@ class Home extends React.Component {
    return (
    <div className="master">
     <header/>
-      <div className = "HomeCarousel">
-          <HomeCarousel/>
-        </div>
+
         <div>
           <h1 className="About">About</h1>
         </div>
@@ -30,7 +28,7 @@ class Home extends React.Component {
 
       </p>
     </div>
-    <div className="masterWhatIDo">
+    <div className="bgimage-2">
       <div className="What-I-Do">
         <h1>What I Do</h1>
       </div>
@@ -57,6 +55,9 @@ class Home extends React.Component {
      <div className="Experience">
        <img src="assets/images/experience.png" alt="experienceinfo"/>
      </div>
+     <div className = "HomeCarousel">
+         <HomeCarousel/>
+       </div>
 
    </div>
    <a href="#top">Top</a>
