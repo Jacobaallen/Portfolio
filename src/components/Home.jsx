@@ -8,9 +8,27 @@ class Home extends React.Component {
    return (
    <div className="master">
     <header/>
-
+      <div className="top">
+        <div className="bar" id="myNavbar">
+          <a className="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu">
+            <i className="fa fa-bars"></i>
+          </a>
+          <a href="#home" className="bar-item button">HOME</a>
+          <a href="#about" className="bar-item button hide-small"><i className="fa fa-user"></i> ABOUT</a>
+          <a href="#portfolio" className="bar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
+          <a href="#contact" className="bar-item button hide-small"><i className="fa fa-envelope"></i> CONTACT</a>
+          <a href="#" className="bar-item button hide-small right hover-red">
+            <i className="fa fa-search"></i>
+          </a>
+        </div>
+        <div id="navDemo" className="bar-block white hide hide-large hide-medium">
+          <a href="#about" className="bar-item button" onClick="toggleFunction()">ABOUT</a>
+          <a href="#portfolio" className="bar-item button" onClick="toggleFunction()">PORTFOLIO</a>
+          <a href="#contact" className="bar-item button" onClick="toggleFunction()">CONTACT</a>
+        </div>
+      </div>
         <div>
-          <h1 className="About">About</h1>
+          <h1 className="about">About</h1>
         </div>
         <div className="aboutColumn">
       <img src="assets/images/profile.jpg" alt="aboutPic"/>
@@ -55,10 +73,11 @@ class Home extends React.Component {
      <div className="Experience">
        <img src="assets/images/experience.png" alt="experienceinfo"/>
      </div>
+     <div id="portfolio">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
-
+     </div>
    </div>
    <a href="#top">Top</a>
  </div>
