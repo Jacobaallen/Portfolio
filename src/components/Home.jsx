@@ -10,6 +10,9 @@ class Home extends React.Component {
       <div className = "HomeCarousel">
           <HomeCarousel/>
         </div>
+        <div className="About">
+          <h1>About</h1>
+        </div>
         <div className="about-pic">
       <img src="assets/images/profile.jpg" alt="aboutPic"/>
       </div>
@@ -42,8 +45,37 @@ JQuery, React.JS, AngularJS, Rails, React on Rails
 
       </p>
     </div>
-    <a href="#top">Top</a>
+    <div className="masterWhatIDo">
+      <div className="What-I-Do">
+        <h1>What I Do</h1>
+      </div>
+      <div className="WebDevelopment">
+        <img src="assets/images/Web-develper-logo-2.png" alt="WebDevelopment1"/>
+      </div>
+      <div className="Design">
+        <img src="assets/images/graphicdesignlogohomepage.png" alt="Design"/>
+      </div>
+      <div className="art">
+        <img src="assets/images/artlogo.png" alt="artlogo"/>
+      </div>
    </div>
+   <div className="masterResume">
+     <div className="resume">
+       <h1>Resume</h1>
+     </div>
+     <div className="Education">
+       <p>Education</p>
+     </div>
+     <div className="Education">
+       <img src="assets/images/education.png" alt="educationinfo"/>
+     </div>
+     <div className="Experience">
+       <img src="assets/images/experience.png" alt="experienceinfo"/>
+     </div>
+
+   </div>
+   <a href="#top">Top</a>
+ </div>
    )
  }
 }
