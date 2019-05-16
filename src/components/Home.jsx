@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeCarousel from './HomeCarousel';
+import Navbar from './Navbar';
 import '../styles/home.css';
 
 
@@ -21,12 +22,14 @@ class Home extends React.Component {
             <i className="fa fa-search"></i>
           </a>
         </div>
+
         <div id="navDemo" className="bar-block white hide hide-large hide-medium">
           <a href="#about" className="bar-item button" onClick="toggleFunction()">ABOUT</a>
           <a href="#portfolio" className="bar-item button" onClick="toggleFunction()">PORTFOLIO</a>
           <a href="#contact" className="bar-item button" onClick="toggleFunction()">CONTACT</a>
         </div>
       </div>
+
         <div>
           <h1 className="about">About</h1>
         </div>
@@ -46,6 +49,7 @@ class Home extends React.Component {
 
       </p>
     </div>
+
     <div className="bgimage-2">
       <div className="What-I-Do">
         <h1>What I Do</h1>
@@ -60,6 +64,7 @@ class Home extends React.Component {
         <img src="assets/images/artlogo.png" alt="artlogo"/>
       </div>
    </div>
+
    <div className="masterResume">
      <div className="resume">
        <h1>Resume</h1>
@@ -73,12 +78,26 @@ class Home extends React.Component {
      <div className="Experience">
        <img src="assets/images/experience.png" alt="experienceinfo"/>
      </div>
+
      <div id="portfolio">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
      </div>
    </div>
+   <div className="form">
+     <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
+        Name:<br/>
+        <input type="text" name="name"/><br/>
+        E-mail:<br/>
+        <input type="text" name="mail"/><br/>
+        Comment:<br/>
+      <input type="text" name="comment" size="50"/><br/><br/>
+        <input type="submit" value="Send"/>
+        <input type="reset" value="Reset"/>
+      </form>
+    </div>
+
    <a href="#top">Top</a>
  </div>
    )
