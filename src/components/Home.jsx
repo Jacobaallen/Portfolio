@@ -12,7 +12,9 @@ class Home extends React.Component {
 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div className="container">
-      <a className="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">
+        <img src="images/logosmall.png" height="30" alt="jaa logo"/>
+      </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -24,34 +26,16 @@ class Home extends React.Component {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#about" data-offset="90">About</a>
+            <a className="nav-link" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#resume" data-offset="90">Resume</a>
+            <a className="nav-link" href="#resume">Resume</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#portfolio" data-offset="90">Portfolio</a>
+            <a className="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact" data-offset="30">Contact</a>
-          </li>
-        </ul>
-
-        <ul className="navbar-nav nav-flex-icons">
-          <li className="nav-item">
-            <a className="nav-link">
-              <i className="fab fa-linkedin-f light-green-text-2"></i>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              <i className="fab fa-Github light-green-text-2"></i>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              <i className="fab fa-instagram light-green-text-2"></i>
-            </a>
+            <a className="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -126,8 +110,9 @@ class Home extends React.Component {
         <input type="reset" value="Reset"/>
       </form>
     </div>
-
-   <a href="#top">Top</a>
+    <div className="top-button">
+      <a href="#top">Back to Top</a>
+   </div>
  </div>
 
    )
