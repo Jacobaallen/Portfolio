@@ -1,13 +1,12 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-image {
-  background-image: '/assets/images/hero-image-1.jpeg';
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
+  height: 750px;
   position: relative;
 }
 
@@ -34,7 +33,7 @@ body {
 }
 
 .bgimage-2 {
-  background-image: url("/assets/images/codebackdrop.jpeg")no-repeat center;
+  background-image: url("/images/codebackdrop.jpeg");
   background-size: cover;
   height: 500px;
   position: relative;

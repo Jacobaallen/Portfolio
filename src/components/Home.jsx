@@ -29,7 +29,7 @@ class Home extends React.Component {
       </div>
 
       <div className="hero-image">
-        <div className="hero-text">
+        <div className="hero-text" >
           <h1>Hi, I'm Jacob A. Allen</h1>
           <p>And I'm a Full Stack Web Developer</p>
         </div>
@@ -40,7 +40,7 @@ class Home extends React.Component {
           <h1 className="about">About</h1>
         </div>
         <div className="aboutColumn">
-      <img src="assets/images/profile.jpg" alt="aboutPic"/>
+      <img src="images/profile.jpg" alt="aboutPic"/>
       </div>
     <div className="aboutColumn">
       <p id="about">
@@ -60,15 +60,9 @@ class Home extends React.Component {
       <div className="What-I-Do">
         <h1>What I Do</h1>
       </div>
-      <div className="development">
-        <img src="assets/images/Web-develper-logo-2.png" alt="WebDevelopment1"/>
-      </div>
-      <div className="responsive">
-        <img src="assets/images/graphicdesignlogohomepage.png" alt="Design"/>
-      </div>
-      <div className="design">
-        <img src="assets/images/artlogo.png" alt="artlogo"/>
-      </div>
+        <img src="images/Web-develper-logo-2.png" alt="WebDevelopment1"/>
+        <img src="images/graphicdesignlogohomepage.png" alt="Design"/>
+        <img src="images/artlogo.png" alt="artlogo"/>
    </div>
 
    <div className="masterResume">
