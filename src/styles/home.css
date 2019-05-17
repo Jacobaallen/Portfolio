@@ -3,6 +3,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.top-nav-collapse, .page-footer {
+    background-color: ##3492D3;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent;
+}
+
 .hero-image {
   background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
@@ -33,7 +41,7 @@ body {
 }
 
 .bgimage-2 {
-  background-image: url("/images/codebackdrop.jpeg");
+  background-image: url("/images/IMG_0120.jpeg");
   background-size: cover;
   height: 500px;
   position: relative;

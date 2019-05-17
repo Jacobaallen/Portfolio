@@ -4,6 +4,7 @@ class GraphicDesign extends React.Component {
  render() {
    return (
     <p>Hello World!</p>
+    <p>a rocords for hosting sits</p>
    )
  }
 }

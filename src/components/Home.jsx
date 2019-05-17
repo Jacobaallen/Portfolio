@@ -8,35 +8,64 @@ class Home extends React.Component {
    <div className="master">
     <header/>
       <div className="top">
-        <div className="bar" id="myNavbar">
-          <a className="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu">
-            <i className="fa fa-bars"></i>
-          </a>
-          <a href="#home" className="bar-item button">HOME</a>
-          <a href="#about" className="bar-item button hide-small"><i className="fa fa-user"></i> ABOUT</a>
-          <a href="#portfolio" className="bar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
-          <a href="#contact" className="bar-item button hide-small"><i className="fa fa-envelope"></i> CONTACT</a>
-          <a href="#" className="bar-item button hide-small right hover-red">
-            <i className="fa fa-search"></i>
-          </a>
-        </div>
-
-        <div id="navDemo" className="bar-block white hide hide-large hide-medium">
-          <a href="#about" className="bar-item button" onClick="toggleFunction()">ABOUT</a>
-          <a href="#portfolio" className="bar-item button" onClick="toggleFunction()">PORTFOLIO</a>
-          <a href="#contact" className="bar-item button" onClick="toggleFunction()">CONTACT</a>
-        </div>
       </div>
 
-      <div className="hero-image">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div className="container">
+      <a className="navbar-brand" href="#">Navbar</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul className="navbar-nav mr-auto smooth-scroll">
+          <li className="nav-item">
+            <a className="nav-link" href="#home">Home
+              <span className="sr-only">(current)</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#about" data-offset="90">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#resume" data-offset="90">Resume</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#portfolio" data-offset="90">Portfolio</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#contact" data-offset="30">Contact</a>
+          </li>
+        </ul>
+
+        <ul className="navbar-nav nav-flex-icons">
+          <li className="nav-item">
+            <a className="nav-link">
+              <i className="fab fa-linkedin-f light-green-text-2"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link">
+              <i className="fab fa-Github light-green-text-2"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link">
+              <i className="fab fa-instagram light-green-text-2"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div className="hero-image" id="home">
         <div className="hero-text" >
           <h1>Hi, I'm Jacob A. Allen</h1>
           <p>And I'm a Full Stack Web Developer</p>
         </div>
       </div>
 
-
-        <div>
+        <div className="about" id="about">
           <h1 className="about">About</h1>
         </div>
         <div className="aboutColumn">
@@ -52,7 +81,6 @@ class Home extends React.Component {
         HTML5, CSS3, JavaScript, Python, JQuery, Ruby
         Libraries:
         JQuery, React.JS, AngularJS, Rails, React on Rails
-
       </p>
     </div>
 
@@ -65,7 +93,7 @@ class Home extends React.Component {
         <img src="images/artlogo.png" alt="artlogo"/>
    </div>
 
-   <div className="masterResume">
+   <div className="masterResume" id="resume">
      <div className="resume">
        <h1>Resume</h1>
      </div>
@@ -79,13 +107,14 @@ class Home extends React.Component {
        <img src="assets/images/experience.png" alt="experienceinfo"/>
      </div>
 
-     <div id="portfolio">
+     <div className="portfolio" id="portfolio">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
      </div>
    </div>
-   <div className="form">
+
+   <div className="form" id="contact">
      <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
         Name:<br/>
         <input type="text" name="name"/><br/>
