@@ -52,10 +52,10 @@ class Home extends React.Component {
         <div className="about" id="about">
           <h1 className="about">About</h1>
         </div>
-        <div className="aboutColumn">
-      <img src="images/profile.jpg" alt="aboutPic"/>
+        <div className="about-1">
+      <img src="images/IMG_0776-2.jpg" alt="aboutPic"/>
       </div>
-    <div className="aboutColumn">
+    <div className="about-2">
       <p id="about">
         I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working
@@ -85,10 +85,10 @@ class Home extends React.Component {
        <p>Education</p>
      </div>
      <div className="Education">
-       <img src="assets/images/education.png" alt="educationinfo"/>
+       <img src="images/education.png" alt="educationinfo"/>
      </div>
      <div className="Experience">
-       <img src="assets/images/experience.png" alt="experienceinfo"/>
+       <img src="images/experience.png" alt="experienceinfo"/>
      </div>
 
      <div className="portfolio" id="portfolio">
