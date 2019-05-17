@@ -1,8 +1,6 @@
 import React from 'react';
 import HomeCarousel from './HomeCarousel';
-import Navbar from './Navbar';
 import '../styles/home.css';
-
 
 class Home extends React.Component {
  render() {
@@ -29,6 +27,14 @@ class Home extends React.Component {
           <a href="#contact" className="bar-item button" onClick="toggleFunction()">CONTACT</a>
         </div>
       </div>
+
+      <div className="hero-image">
+        <div className="hero-text">
+          <h1>Hi, I'm Jacob A. Allen</h1>
+          <p>And I'm a Full Stack Web Developer</p>
+        </div>
+      </div>
+
 
         <div>
           <h1 className="about">About</h1>
@@ -100,6 +106,7 @@ class Home extends React.Component {
 
    <a href="#top">Top</a>
  </div>
+
    )
  }
 }
