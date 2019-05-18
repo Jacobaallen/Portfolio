@@ -50,8 +50,7 @@ body {
 }
 
 .about-1 {
-  width: 50%;
-  padding: 15px;
+  object-fit: scale-down;
 }
 
 .about-2{
