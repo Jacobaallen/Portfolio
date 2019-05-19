@@ -12,7 +12,7 @@ class Home extends React.Component {
 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div className="container">
-      <a class="navbar-brand" href="#">
+      <a className="navbar-brand" href="#">
         <img src="images/logosmall.png" height="30" alt="jaa logo"/>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
