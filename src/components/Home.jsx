@@ -78,16 +78,13 @@ class Home extends React.Component {
    </div>
 
    <div className="masterResume" id="resume">
-     <div className="resume">
+     <div className="resume-text">
        <h1>Resume</h1>
      </div>
-     <div className="Education">
-       <p>Education</p>
-     </div>
-     <div className="Education">
+     <div className="Education-image">
        <img src="images/education.png" alt="educationinfo"/>
      </div>
-     <div className="Experience">
+     <div className="Experience-image">
        <img src="images/experience.png" alt="experienceinfo"/>
      </div>
 
