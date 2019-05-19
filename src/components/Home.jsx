@@ -53,7 +53,7 @@ class Home extends React.Component {
           <h1 className="about">About</h1>
         </div>
         <div className="about-1">
-      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic"/>
+      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375"/>
       </div>
     <div className="about-2">
       <p id="about">
@@ -77,23 +77,23 @@ class Home extends React.Component {
         <img src="images/artlogo.png" alt="artlogo"/>
    </div>
 
+   <div className="resume-text">
+     <h1>Resume</h1>
+   </div>
    <div className="masterResume" id="resume">
-     <div className="resume-text">
-       <h1>Resume</h1>
-     </div>
      <div className="Education-image">
        <img src="images/education.png" alt="educationinfo"/>
      </div>
-     <div className="Experience-image">
+     <div className="Experience-imag">
        <img src="images/experience.png" alt="experienceinfo"/>
      </div>
+    </div>
 
      <div className="portfolio" id="portfolio">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
      </div>
-   </div>
 
    <div className="form" id="contact">
      <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
