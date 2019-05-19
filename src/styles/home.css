@@ -50,14 +50,22 @@ body {
   font-size: 2em;
 }
 
-.about-1 {
+.about-master{
+  display: flex;
+  align-items: center;
+}
+
+.about-image{
   display: flex;
   width: 100%;
   height: auto;
+  justify-content:space-between;
+  padding: 5em;
 }
 
-.about-2{
+.about-text{
   height: 50%;
+  justify-content:space-between;
 }
 
 .bgimage-2 {

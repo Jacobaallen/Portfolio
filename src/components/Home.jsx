@@ -52,11 +52,12 @@ class Home extends React.Component {
         <div className="about" id="about">
           <h1 className="about">About</h1>
         </div>
-        <div className="about-1">
+    <div className="about-master">
+        <div className="about-image">
       <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375"/>
       </div>
-    <div className="about-2">
-      <p id="about">
+    <div className="about-text">
+      <p>
         I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working
         as a substitute teacher for the Palm Beach County School District. I decided to transform my art background into a technology based career and attended Wyncode.
@@ -67,6 +68,7 @@ class Home extends React.Component {
         JQuery, React.JS, AngularJS, Rails, React on Rails
       </p>
     </div>
+  </div>
 
     <div className="bgimage-2">
       <div className="What-I-Do">
