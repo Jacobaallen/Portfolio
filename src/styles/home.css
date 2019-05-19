@@ -27,10 +27,13 @@ body {
 }
 
 .hero-image {
+  display: flex;
   background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
   height: 900px;
   position: relative;
+  text-align: center;
+  justify-content: center;
 }
 
 .hero-text {
@@ -50,7 +53,9 @@ body {
 }
 
 .about-1 {
-  object-fit: scale-down;
+  display: flex;
+  justify-content: space-around;
+  object-fit: contain;
 }
 
 .about-2{

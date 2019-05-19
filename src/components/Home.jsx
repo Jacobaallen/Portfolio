@@ -12,7 +12,7 @@ class Home extends React.Component {
 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="#home">
         <img src="images/logosmall.png" height="30" alt="jaa logo"/>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@ class Home extends React.Component {
           <h1 className="about">About</h1>
         </div>
         <div className="about-1">
-      <img src="images/IMG_0776-2.jpg" alt="aboutPic"/>
+      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic"/>
       </div>
     <div className="about-2">
       <p id="about">
