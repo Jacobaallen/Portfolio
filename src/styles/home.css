@@ -27,6 +27,7 @@ body {
 }
 
 .hero-image {
+  display: flex;
   background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
   height: 900px;
@@ -41,7 +42,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .about {
@@ -53,19 +55,28 @@ body {
 .about-master{
   display: flex;
   align-items: center;
+  padding: 2em;
 }
 
 .about-image{
-  display: flex;
+  float: left;
   width: 100%;
   height: auto;
-  justify-content:space-between;
-  padding: 5em;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .about-text{
   height: 50%;
   justify-content:space-between;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .bgimage-2 {
@@ -85,12 +96,22 @@ body {
 
 .Education-image{
   justify-content: space-around;
-  width: auto;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .Experience-image{
   justify-content: space-around;
-  width: auto;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .HomeCarousel {
