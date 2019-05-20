@@ -84,10 +84,10 @@ class Home extends React.Component {
    </div>
    <div className="masterResume" id="resume">
      <div className="Education-image">
-       <img src="images/education.png" alt="educationinfo" height="500" width="800"/>
+       <img src="images/education.png" alt="educationinfo" height="400" width="800"/>
      </div>
      <div className="Experience-imag">
-       <img src="images/experience.png" alt="experienceinfo"height="500" width="800"/>
+       <img src="images/experience.png" alt="experienceinfo"height="550" width="800"/>
      </div>
     </div>
 
