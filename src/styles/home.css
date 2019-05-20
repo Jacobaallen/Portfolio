@@ -71,7 +71,7 @@ body {
 
 .about-text{
   height: 50%;
-  justify-content:space-between;
+  justify-content:center;
   padding: 2em;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
@@ -84,6 +84,37 @@ body {
   background-size: cover;
   height: 500px;
   position: relative;
+}
+
+.What-I-Do{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.icons-1{
+  padding: 3em;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+}
+
+.icons-2{
+  padding: 3em;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+}
+
+.icons-3{
+  padding: 3em;
+  top: 50%;
+  left:80%;
+  position: absolute;
 }
 
 .masterResume{

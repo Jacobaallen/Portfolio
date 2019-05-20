@@ -15,9 +15,10 @@ class Home extends React.Component {
       <a className="navbar-brand" href="#home">
         <img src="images/logosmall.png" height="30" alt="jaa logo"/>
       </a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto smooth-scroll">
           <li className="nav-item">
@@ -74,9 +75,18 @@ class Home extends React.Component {
       <div className="What-I-Do">
         <h1>What I Do</h1>
       </div>
-        <img src="images/Web-develper-logo-2.png" alt="WebDevelopment1"/>
+      <div className="icons-1">
+        <img src="images/Web-develper-logo-2.png" alt="WebDevelopment1" height="150" />
+        <p>Develop</p>
+      </div>
+      <div className="icons-2">
         <img src="images/graphicdesignlogohomepage.png" alt="Design"/>
+        <p>Responsive</p>
+      </div>
+      <div className="icons-3">
         <img src="images/artlogo.png" alt="artlogo"/>
+        <p>Design</p>
+      </div>
    </div>
 
    <div className="resume-text">
