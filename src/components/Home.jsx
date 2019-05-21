@@ -11,37 +11,35 @@ class Home extends React.Component {
       </div>
 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-    <div className="container">
-      <a className="navbar-brand" href="#home">
-        <img src="images/logosmall.png" height="30" alt="jaa logo"/>
-      </a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mr-auto smooth-scroll">
-          <li className="nav-item">
-            <a className="nav-link" href="#home">Home
-              <span className="sr-only">(current)</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#about">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#resume">Resume</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#projects">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <a className="navbar-brand" href="#home">
+          <img src="images/logosmall.png" height="30" alt="jaa logo"/>
+        </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#home">Home
+                <span className="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">Resume</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#projects">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
 
       <div className="hero-image" id="home">
         <div className="hero-text" >
@@ -54,10 +52,8 @@ class Home extends React.Component {
           <h1>About</h1>
         </div>
     <div className="about-master">
-        <div className="about-image">
-      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375"/>
-      </div>
     <div className="about-text">
+      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375" />
       <p>
         I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working
@@ -91,10 +87,10 @@ class Home extends React.Component {
     </div>
    </div>
 
-   <div className="resume-text">
+   <div className="resume-text" id="resume">
      <h1>Resume</h1>
    </div>
-   <div className="masterResume" id="resume">
+   <div className="masterResume">
      <div className="Education-image">
        <img src="images/education.png" alt="educationinfo" height="300" width="500"/>
      </div>
@@ -138,6 +134,12 @@ class Home extends React.Component {
       <div className="icons-5">
         <img src="images/phone-icon-circle.png" alt="phone" hight="100" width="100"/>
         <p>(561) 315-5460</p>
+      </div>
+      <div className="github">
+        <img src="images/github-logo.png" alt="github" hight="100" width="100"/>
+      </div>
+      <div className="linkedin">
+        <img src="images/linkin-cicle.png" alt="linkedin" hight="100" width="100"/>
       </div>
     </div>
   </div>
