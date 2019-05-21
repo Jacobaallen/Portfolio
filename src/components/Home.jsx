@@ -51,7 +51,7 @@ class Home extends React.Component {
       </div>
 
         <div className="about" id="about">
-          <h1 className="about">About</h1>
+          <h1>About</h1>
         </div>
     <div className="about-master">
         <div className="about-image">
@@ -80,12 +80,12 @@ class Home extends React.Component {
         <p>Develop</p>
       </div>
       <div className="icons-2">
-        <img src="images/graphicdesignlogohomepage.png" alt="Design"/>
-        <p>Responsive</p>
-      </div>
-      <div className="icons-3">
         <img src="images/artlogo.png" alt="artlogo"/>
         <p>Design</p>
+      </div>
+      <div className="icons-3">
+        <img src="images/graphicdesignlogohomepage.png" alt="Design"/>
+        <p>Responsive</p>
       </div>
    </div>
 
@@ -94,10 +94,10 @@ class Home extends React.Component {
    </div>
    <div className="masterResume" id="resume">
      <div className="Education-image">
-       <img src="images/education.png" alt="educationinfo" height="400" width="800"/>
+       <img src="images/education.png" alt="educationinfo" height="300" width="500"/>
      </div>
-     <div className="Experience-imag">
-       <img src="images/experience.png" alt="experienceinfo"height="550" width="800"/>
+     <div className="Experience-image">
+       <img src="images/experience.png" alt="experienceinfo"height="425" width="500"/>
      </div>
     </div>
 

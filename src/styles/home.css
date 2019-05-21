@@ -67,16 +67,18 @@ body {
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
+  margin: 20px;
 }
 
 .about-text{
   height: 50%;
   justify-content:center;
-  padding: 2em;
+  padding: 8em;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
+  margin: 20px;
 }
 
 .bgimage-2 {
@@ -99,22 +101,31 @@ body {
 .icons-1{
   padding: 3em;
   top: 50%;
-  left: 10%;
+  left: 15%;
   position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
 }
 
 .icons-2{
   padding: 3em;
   top: 50%;
-  left: 40%;
+  left: 45%;
   position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
 }
 
 .icons-3{
   padding: 3em;
   top: 50%;
-  left:80%;
+  left:65%;
   position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
 }
 
 .masterResume{
@@ -127,22 +138,25 @@ body {
 
 .Education-image{
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
+  padding: 5em;
+  margin: 20px;
 }
 
 .Experience-image{
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
+  margin: 20px;
 }
 
 .HomeCarousel {
@@ -159,6 +173,10 @@ body {
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
+  height: 400px;
+  width: 600px;
+  padding: 10em;
+  margin: 20px;
 }
 
 .top-button{
