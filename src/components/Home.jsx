@@ -33,7 +33,7 @@ class Home extends React.Component {
             <a className="nav-link" href="#resume">Resume</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#portfolio">Portfolio</a>
+            <a className="nav-link" href="#projects">Projects</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contact">Contact</a>
@@ -71,7 +71,8 @@ class Home extends React.Component {
     </div>
   </div>
 
-    <div className="bgimage-2">
+  <div className="bgimage-2">
+    <div className="transbox">
       <div className="What-I-Do">
         <h1>What I Do</h1>
       </div>
@@ -80,13 +81,14 @@ class Home extends React.Component {
         <p>Develop</p>
       </div>
       <div className="icons-2">
-        <img src="images/artlogo.png" alt="artlogo"/>
+        <img src="images/artisticon.png" alt="artlogo"/>
         <p>Design</p>
       </div>
       <div className="icons-3">
-        <img src="images/graphicdesignlogohomepage.png" alt="Design"/>
-        <p>Responsive</p>
+        <img src="images/graphicdesignlogohomepage.png" alt="innovation"/>
+        <p>Innovation</p>
       </div>
+    </div>
    </div>
 
    <div className="resume-text">
@@ -101,18 +103,21 @@ class Home extends React.Component {
      </div>
     </div>
 
+    <div className="projects-text" id="projects">
+      <h1>Projects</h1>
+    </div>
      <div className="portfolio" id="portfolio">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
      </div>
 
-     <div className="contact-text">
+     <div className="contact-text" id="contact">
        <h1>Contact</h1>
      </div>
 
   <div className="contact-master">
-   <div className="form" id="contact">
+   <div className="form">
      <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
         Name:<br/>
         <input type="text" name="name"/><br/>

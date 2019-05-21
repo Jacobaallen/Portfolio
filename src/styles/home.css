@@ -54,8 +54,7 @@ body {
 }
 
 .about {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   font-size: 2em;
 }
 
@@ -151,7 +150,6 @@ body {
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
   border-width: 2px;
-  padding: 5em;
   margin: 20px;
 }
 
@@ -166,6 +164,10 @@ body {
   margin: 20px;
 }
 
+.projects-text{
+  text-align: center;
+}
+
 .HomeCarousel {
   display: flex;
   align-items: center;
@@ -176,9 +178,13 @@ body {
   display: flex;
 }
 
+.contact-text{
+  text-align: center;
+}
+
 .form{
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
@@ -186,12 +192,12 @@ body {
   height: 400px;
   width: 600px;
   padding: 5em;
-  margin: 20px;
+  margin: 5em;
 }
 
 .contact-icons{
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: white;
   box-shadow: 10px 10px 5px grey;
   border-style: solid;
@@ -199,10 +205,10 @@ body {
   height: 400px;
   width: 600px;
   padding: 5em;
-  margin: 20px;
+  margin: 5em;
   text-align: left;
 }
 
 .top-button{
-  align-items: center;
+  text-align: center;
 }
