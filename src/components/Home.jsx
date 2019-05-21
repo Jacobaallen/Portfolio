@@ -53,7 +53,9 @@ class Home extends React.Component {
         </div>
     <div className="about-master">
     <div className="about-text">
-      <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375" />
+      <div className="aboutPic">
+        <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375" />
+      </div>
       <p>
         I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working

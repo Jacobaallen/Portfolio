@@ -64,6 +64,11 @@ body {
   padding: 2em;
 }
 
+.aboutPic {
+  float: left;
+  padding: 1em;
+}
+
 .about-text{
   height: 50%;
   justify-content:center;
