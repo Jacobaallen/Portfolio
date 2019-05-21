@@ -107,6 +107,11 @@ class Home extends React.Component {
        </div>
      </div>
 
+     <div className="contact-text">
+       <h1>Contact</h1>
+     </div>
+
+  <div className="contact-master">
    <div className="form" id="contact">
      <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
         Name:<br/>
@@ -119,10 +124,23 @@ class Home extends React.Component {
         <input type="reset" value="Reset"/>
       </form>
     </div>
+
+    <div className="contact-icons">
+      <div className="icons-4">
+        <img src="images/email-icon.png" alt="email" height="100" />
+        <p>jacob@jacobaallen.com</p>
+      </div>
+      <div className="icons-5">
+        <img src="images/phone-icon-circle.png" alt="phone" hight="100" width="100"/>
+        <p>(561) 315-5460</p>
+      </div>
+    </div>
+  </div>
+
     <div className="top-button">
       <a href="#top">Back to Top</a>
    </div>
- </div>
+</div>
 
    )
  }
