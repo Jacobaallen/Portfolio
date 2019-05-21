@@ -6,7 +6,7 @@ class Home extends React.Component {
  render() {
    return (
    <div className="master">
-    <header/>
+    <header className="header"/>
       <div className="top">
       </div>
 
