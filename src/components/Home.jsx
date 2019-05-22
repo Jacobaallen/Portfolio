@@ -28,7 +28,7 @@ class Home extends React.Component {
               <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume">Resume</a>
+              <a className="nav-link" href="#portfolio">Resume</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>
@@ -42,19 +42,24 @@ class Home extends React.Component {
 
 
       <div className="hero-image" id="home">
-        <div className="hero-text" >
-          <h1>Hi, I'm Jacob A. Allen</h1>
-          <p>And I'm a Full Stack Web Developer</p>
+        <div className="hero-text-master">
+          <div className="hero-text" >
+            <h1>Hi, I'm Jacob A. Allen</h1>
+          </div>
+          <div className="hero-text-2">
+            <div className="typewriter-hero-text-2"> And I'm a Full Stack Web Developer</div>
+          </div>
         </div>
       </div>
 
-        <div className="about" id="about">
-          <h1>About</h1>
-        </div>
+        <div className="about" id="about"/>
     <div className="about-master">
     <div className="about-text">
       <div className="aboutPic">
         <img src="images/IMG_0776-2-small.jpg" alt="aboutPic" width="300" height="375" />
+      </div>
+      <div className="about-title">
+        <h1>About</h1>
       </div>
       <p>
         I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
@@ -71,8 +76,8 @@ class Home extends React.Component {
 
   <div className="bgimage-2">
     <div className="transbox">
-      <div className="What-I-Do">
-        <h1>What I Do</h1>
+      <div className="portfolio">
+        <h1>PORTFOLIO</h1>
       </div>
       <div className="icons-1">
         <img src="images/Web-develper-logo-2.png" alt="WebDevelopment1" height="150" />
@@ -89,22 +94,10 @@ class Home extends React.Component {
     </div>
    </div>
 
-   <div className="resume-text" id="resume">
-     <h1>Resume</h1>
-   </div>
-   <div className="masterResume">
-     <div className="Education-image">
-       <img src="images/education.png" alt="educationinfo" height="300" width="500"/>
-     </div>
-     <div className="Experience-image">
-       <img src="images/experience.png" alt="experienceinfo"height="425" width="500"/>
-     </div>
-    </div>
-
     <div className="projects-text" id="projects">
       <h1>Projects</h1>
     </div>
-     <div className="portfolio" id="portfolio">
+     <div className="projects" id="projects">
      <div className = "HomeCarousel">
          <HomeCarousel/>
        </div>
@@ -129,19 +122,23 @@ class Home extends React.Component {
     </div>
 
     <div className="contact-icons">
-      <div className="icons-4">
-        <img src="images/email-icon.png" alt="email" height="100" />
-        <p>jacob@jacobaallen.com</p>
+      <div>
+        <div className="icons-4">
+          <img src="images/email-icon.png" alt="email" height="100" />
+          <p>jacob@jacobaallen.com</p>
+        </div>
+        <div className="icons-5">
+          <img src="images/phone-icon-circle.png" alt="phone" height="100" width="100"/>
+          <p>(561) 315-5460</p>
+        </div>
       </div>
-      <div className="icons-5">
-        <img src="images/phone-icon-circle.png" alt="phone" hight="100" width="100"/>
-        <p>(561) 315-5460</p>
-      </div>
-      <div className="github">
-        <img src="images/github-logo.png" alt="github" hight="100" width="100"/>
-      </div>
-      <div className="linkedin">
-        <img src="images/linkin-cicle.png" alt="linkedin" hight="100" width="100"/>
+      <div className="social-media">
+        <div className="github mb-2">
+          <img src="images/github-logo.png" alt="github" height="100" width="100"/>
+        </div>
+        <div className="linkedin mb-2">
+          <img src="images/linkin-cicle.png" alt="linkedin" height="100" width="100"/>
+        </div>
       </div>
     </div>
   </div>
