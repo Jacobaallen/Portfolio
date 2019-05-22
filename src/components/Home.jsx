@@ -28,10 +28,7 @@ class Home extends React.Component {
               <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Resume</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
@@ -71,10 +68,22 @@ class Home extends React.Component {
         Libraries:
         JQuery, React.JS, AngularJS, Rails, React on Rails
       </p>
+      <div className="button-master">
+          <div className="resume-download">
+            <button>
+              <a href='my-resume-8.pdf' download>Download Resume</a>
+            </button>
+          </div>
+        <div className="contact-button">
+          <button>
+            <a className="contact-button" href="#contact">Contact Me</a>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div className="bgimage-2">
+  <div className="bgimage-2" id="portfolio">
     <div className="transbox">
       <div className="portfolio">
         <h1>PORTFOLIO</h1>
