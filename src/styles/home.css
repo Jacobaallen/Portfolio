@@ -192,6 +192,14 @@ body {
 
 .contact-master{
   display: flex;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 2px;
+  height: 400px;
+  width: 80%;
+  padding: 5em;
+  margin: 5em;
 }
 
 .contact-text{
@@ -201,28 +209,12 @@ body {
 .form{
   align-items: center;
   justify-content: space-around;
-  background-color: white;
-  box-shadow: 10px 10px 5px grey;
-  border-style: solid;
-  border-width: 2px;
-  height: 400px;
-  width: 600px;
-  padding: 5em;
-  margin: 5em;
 }
 
 .contact-icons{
   display: flex;
   align-items: center;
-  background-color: white;
   justify-content: flex-start;
-  box-shadow: 10px 10px 5px grey;
-  border-style: solid;
-  border-width: 2px;
-  height: 600px;
-  width: 600px;
-  padding: 5em;
-  margin: 5em;
   text-align: center;
 }
 
