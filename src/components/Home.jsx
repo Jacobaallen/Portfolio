@@ -40,7 +40,7 @@ class Home extends React.Component {
       <div className="hero-image" id="home">
         <div className="hero-text-master">
           <div className="hero-text" >
-            <h1>Hi, I'm Jacob A. Allen</h1>
+            <p>Hi, I'm Jacob A. Allen</p>
           </div>
           <div className="hero-text-2">
             <div className="typewriter-hero-text-2"> And I'm a Full Stack Web Developer</div>
@@ -95,21 +95,18 @@ class Home extends React.Component {
   <div className="bgimage-2" id="portfolio">
     <div className="transbox">
       <div className="portfolio">
-        <h1>PORTFOLIO</h1>
+        <p>Portfolio</p>
       </div>
     </div>
    </div>
 
-    <div className="projects-text" id="projects">
-      <h1>Projects</h1>
-    </div>
      <div className="projects" id="projects">
         <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="https://beat-blender.herokuapp.com/">
               <img src="images/BeatBleader.png" alt="" width="600" height="400"/>
             </a>
-            <div className="desc">BeatBleader uses Geolocation and the Spotify API to conect you with the people around you thought music</div>
+            <div className="desc">BeatBleader uses Geolocation and the Spotify API to conect you with the people around you thought music.</div>
           </div>
         </div>
         <div className="responsive">
@@ -117,15 +114,15 @@ class Home extends React.Component {
             <a target="_blank" href="img_lights.jpg">
               <img src="images/dishwish.png" alt="dishwish" width="600" height="400"/>
             </a>
-            <div className="desc">Add a description of the image here</div>
+            <div className="desc">Dishwish is a recipe finding app.</div>
           </div>
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="img_mountains.jpg" alt="Mountains" width="600" height="400"/>
+            <a target="_blank" href="https://github.com/Jacobaallen/Weekend-Game-2">
+              <img src="images/game.png" alt="game" width="600" height="400"/>
             </a>
-            <div className="desc">Add a description of the image here</div>
+            <div className="desc">Elder Tales is a game made for the Terminal. Based on the anime Log Horizon.</div>
           </div>
         </div>
       </div>

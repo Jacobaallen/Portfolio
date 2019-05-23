@@ -51,6 +51,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 3rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -69,7 +70,7 @@ body {
   letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
   white-space: nowrap;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   border-right: 4px solid;
   box-sizing: border-box;
@@ -145,42 +146,12 @@ body {
 .portfolio{
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-size: 100em;
-}
-
-.icons-1{
-  padding: 3em;
-  top: 50%;
-  left: 15%;
-  position: absolute;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  text-align: center;
-}
-
-.icons-2{
-  padding: 3em;
-  top: 50%;
-  left: 45%;
-  position: absolute;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  text-align: center;
-}
-
-.icons-3{
-  padding: 3em;
-  top: 50%;
-  left:65%;
-  position: absolute;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  text-align: center;
+  font-size: 8em;
 }
 
 .masterResume{
@@ -191,8 +162,8 @@ body {
   text-align: center;
 }
 
-.projects-text{
-  text-align: center;
+.projects{
+  margin: 2rem;
 }
 
 div.gallery {
@@ -237,9 +208,8 @@ div.desc {
 }
 
 .contact-master{
-  display: flex;
-  padding: 5em;
-  margin: 5em;
+  padding: 5rem;
+  margin: 5rem;
 }
 
 .contact-text{
