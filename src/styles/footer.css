@@ -4,3 +4,11 @@
   top: 50%;
   height: 15em;
 }
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  height: auto;
+
+}

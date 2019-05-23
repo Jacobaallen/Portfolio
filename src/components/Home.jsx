@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeCarousel from './HomeCarousel';
 import '../styles/home.css';
 
 class Home extends React.Component {
@@ -105,10 +104,31 @@ class Home extends React.Component {
       <h1>Projects</h1>
     </div>
      <div className="projects" id="projects">
-     <div className = "HomeCarousel">
-         <HomeCarousel/>
-       </div>
-     </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="https://beat-blender.herokuapp.com/">
+              <img src="images/BeatBleader.png" alt="" width="600" height="400"/>
+            </a>
+            <div className="desc">BeatBleader uses Geolocation and the Spotify API to conect you with the people around you thought music</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="images/dishwish.png" alt="dishwish" width="600" height="400"/>
+            </a>
+            <div className="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="img_mountains.jpg" alt="Mountains" width="600" height="400"/>
+            </a>
+            <div className="desc">Add a description of the image here</div>
+          </div>
+        </div>
+      </div>
 
      <div className="contact-text" id="contact">
        <h1>Contact</h1>
