@@ -35,7 +35,7 @@ body {
 
 .hero-image {
   display: flex;
-  background-image: url("/images/hero-image-1.jpeg");
+  background-image: url("/images/desktop-hero.JPG");
   background-size: cover;
   background-attachment: fixed;
   height: 900px;
@@ -215,7 +215,7 @@ body {
 
 .contact-text{
   display: flex;
-  background-image: url("/images/hero-image-1.jpeg");
+  background-image: url("/images/img_61823.jpg");
   background-size: cover;
   background-attachment:fixed;
   height: 900px;
