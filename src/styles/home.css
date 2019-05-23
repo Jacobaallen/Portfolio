@@ -37,7 +37,7 @@ body {
   display: flex;
   background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   height: 900px;
   position: relative;
   text-align: center;
@@ -121,11 +121,25 @@ body {
   float: left;
 }
 
+.Languages-text{
+  text-align: center;
+}
+
+.Languages{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B1C3CC;
+  height: 400px;
+  width: auto;
+}
+
 .bgimage-2 {
   background-image: url("/images/IMG_0120.jpeg");
   background-size: cover;
   height: 500px;
   position: relative;
+  background-attachment: fixed;
 }
 
 .portfolio{

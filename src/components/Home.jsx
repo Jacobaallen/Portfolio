@@ -83,6 +83,16 @@ class Home extends React.Component {
     </div>
   </div>
 
+  <div className="Languages-text">
+    <h1>Languages</h1>
+  </div>
+  <div className="Languages">
+      <img src="images/html-logo.png" alt="htmlLogo"  height="200"/>
+      <img src="images/css-logo.png" alt="cssLogo" height="200"/>
+      <img src="images/js-logo.png" alt="jsLogo" height="200"/>
+      <img src="images/Ruby-logo.png" alt="rubyLogo" height="200"/>
+  </div>
+
   <div className="bgimage-2" id="portfolio">
     <div className="transbox">
       <div className="portfolio">
