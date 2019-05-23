@@ -37,6 +37,7 @@ body {
   display: flex;
   background-image: url("/images/hero-image-1.jpeg");
   background-size: cover;
+  background-attachment:fixed;
   height: 900px;
   position: relative;
   text-align: center;
@@ -116,10 +117,6 @@ body {
   height: 50%;
   justify-content:center;
   padding: 8em;
-  background-color: white;
-  box-shadow: 10px 10px 5px grey;
-  border-style: solid;
-  border-width: 2px;
   margin: 20px;
   float: left;
 }
@@ -203,7 +200,14 @@ body {
 }
 
 .contact-text{
+  display: flex;
+  background-image: url("/images/hero-image-1.jpeg");
+  background-size: cover;
+  background-attachment:fixed;
+  height: 900px;
+  position: relative;
   text-align: center;
+  justify-content: center;
 }
 
 .form{

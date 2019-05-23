@@ -88,18 +88,6 @@ class Home extends React.Component {
       <div className="portfolio">
         <h1>PORTFOLIO</h1>
       </div>
-      <div className="icons-1">
-        <img src="images/Web-develper-logo-2.png" alt="WebDevelopment1" height="150" />
-        <p>Develop</p>
-      </div>
-      <div className="icons-2">
-        <img src="images/artisticon.png" alt="artlogo"/>
-        <p>Design</p>
-      </div>
-      <div className="icons-3">
-        <img src="images/graphicdesignlogohomepage.png" alt="innovation"/>
-        <p>Innovation</p>
-      </div>
     </div>
    </div>
 
