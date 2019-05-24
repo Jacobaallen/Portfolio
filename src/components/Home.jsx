@@ -107,10 +107,10 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="img_lights.jpg">
+            <a target="_blank" href="images/dishwish.png">
               <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
-            <div className="desc">Dishwish is a recipe finding app.</div>
+            <div className="desc">Dishwish is a recipe finding app. Using the Recipepuppy API.</div>
           </div>
         </div>
         <div className="responsive">
