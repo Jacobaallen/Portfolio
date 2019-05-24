@@ -43,7 +43,7 @@ class Home extends React.Component {
             <p>Hi, I'm Jacob A. Allen</p>
           </div>
           <div className="hero-text-2">
-            <div className="typewriter-hero-text-2"> And I'm a Full Stack Web Developer</div>
+            <div className="typewriter-hero-text-2"> And I'm a Full Stack Web Developer.</div>
           </div>
         </div>
       </div>
@@ -69,14 +69,10 @@ class Home extends React.Component {
       </p>
       <div className="button-master">
           <div className="resume-download">
-            <button>
               <a href='my-resume-8.pdf' download>Download Resume</a>
-            </button>
           </div>
         <div className="contact-button">
-          <button>
             <a className="contact-button" href="#contact">Contact Me</a>
-          </button>
         </div>
       </div>
     </div>

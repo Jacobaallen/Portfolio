@@ -122,6 +122,28 @@ body {
   float: left;
 }
 
+.button-master{
+  display: flex;
+  justify-content: space-around;
+}
+
+.resume-download{
+  background-color: #4ABCFC;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.contact-button{
+  background-color: #4ABCFC;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+a{
+  color: white;
+}
+
 .Languages-text{
   text-align: center;
 }
