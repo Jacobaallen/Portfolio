@@ -104,7 +104,7 @@ class Home extends React.Component {
         <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="https://beat-blender.herokuapp.com/">
-              <img src="images/BeatBleader.png" alt="" width="600" height="400"/>
+              <img src="images/BeatBleader.png" alt="" width="800" height="400"/>
             </a>
             <div className="desc">BeatBleader uses Geolocation and the Spotify API to conect you with the people around you thought music.</div>
           </div>
@@ -112,7 +112,7 @@ class Home extends React.Component {
         <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="img_lights.jpg">
-              <img src="images/dishwish.png" alt="dishwish" width="600" height="400"/>
+              <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
             <div className="desc">Dishwish is a recipe finding app.</div>
           </div>
@@ -120,7 +120,7 @@ class Home extends React.Component {
         <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="https://github.com/Jacobaallen/Weekend-Game-2">
-              <img src="images/game.png" alt="game" width="600" height="400"/>
+              <img src="images/game.png" alt="game" width="800" height="400"/>
             </a>
             <div className="desc">Elder Tales is a game made for the Terminal. Based on the anime Log Horizon.</div>
           </div>
@@ -128,7 +128,7 @@ class Home extends React.Component {
       </div>
 
      <div className="contact-text" id="contact">
-       <h1>Contact</h1>
+       <p>Contact</p>
      </div>
 
   <div className="contact-master">
