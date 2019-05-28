@@ -121,12 +121,22 @@ class Home extends React.Component {
             <div className="desc">Elder Tales is a game made for the Terminal. Based on the anime Log Horizon.</div>
           </div>
         </div>
+      </div>
+        <div className="row-2">
         <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="https://github.com/Jacobaallen/TourDeEndofSummer">
-              <img src="images/Tourdeendofsummer.png" alt="game" width="800" height="400"/>
+              <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
             </a>
             <div className="desc">Tour De End Of Summer is a information site to find out info on a bike ride.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="https://github.com/Jacobaallen/animehelper">
+              <img src="images/AnimeFanHelper.png" alt="dishwish" width="800" height="400"/>
+            </a>
+            <div className="desc">Anime Fan Helper, helps find info about anime's.</div>
           </div>
         </div>
       </div>
@@ -143,7 +153,7 @@ class Home extends React.Component {
         E-mail:<br/>
         <input type="text" name="mail"/><br/>
         Comment:<br/>
-      <input type="text" name="comment" size="50"/><br/><br/>
+      <input type="text" name="comment" hight="20" width="50"/><br/><br/>
         <input type="submit" value="Send"/>
         <input type="reset" value="Reset"/>
       </form>
