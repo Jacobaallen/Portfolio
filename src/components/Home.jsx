@@ -121,6 +121,14 @@ class Home extends React.Component {
             <div className="desc">Elder Tales is a game made for the Terminal. Based on the anime Log Horizon.</div>
           </div>
         </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="https://github.com/Jacobaallen/TourDeEndofSummer">
+              <img src="images/Tourdeendofsummer.png" alt="game" width="800" height="400"/>
+            </a>
+            <div className="desc">Tour De End Of Summer is a information site to find out info on a bike ride.</div>
+          </div>
+        </div>
       </div>
 
      <div className="contact-text" id="contact">
