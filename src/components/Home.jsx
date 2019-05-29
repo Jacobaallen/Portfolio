@@ -58,10 +58,10 @@ class Home extends React.Component {
         <h1>About</h1>
       </div>
       <p>
-        I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode
+        I was born and raised in West Palm Beach, Florida. I am a recent graduate of Wyncode where I earned my certification as a Full Stack Web Developer. Before Wyncode,
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working
         as a substitute teacher for the Palm Beach County School District. I decided to transform my art background into a technology based career and attended Wyncode.
-        This came about from my interest in technology and curiosity about how the web works. Learning how to create and invent the technology myself was the next logical step so I learned to code. Now I'm looking for a job where I can show my skill and improve with the company that hires me.
+        This came about from my interest in technology and curiosity about how the web works. Learning how to create and invent the technology myself was the next logical step so I learned to code. Now I'm looking for a job where I can show my skills and improve with the company that hires me.
         Languages:
         HTML5, CSS3, JavaScript, Python, JQuery, Ruby
         Libraries:
@@ -102,7 +102,7 @@ class Home extends React.Component {
             <a target="_blank" href="https://beat-blender.herokuapp.com/">
               <img src="images/BeatBleader.png" alt="" width="800" height="400"/>
             </a>
-            <div className="desc">BeatBleader uses Geolocation and the Spotify API to conect you with the people around you thought music.</div>
+            <div className="desc">BeatBleader uses Geolocation and the Spotify API to connect you with other people around you through music.</div>
           </div>
         </div>
         <div className="responsive">
@@ -110,7 +110,7 @@ class Home extends React.Component {
             <a target="_blank" href="images/dishwish.png">
               <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
-            <div className="desc">Dishwish is a recipe finding app. Using the Recipepuppy API.</div>
+            <div className="desc">Dishwish is a recipe finding app that uses the Recipepuppy API.</div>
           </div>
         </div>
         <div className="responsive">
@@ -118,7 +118,7 @@ class Home extends React.Component {
             <a target="_blank" href="https://github.com/Jacobaallen/Weekend-Game-2">
               <img src="images/game.png" alt="game" width="800" height="400"/>
             </a>
-            <div className="desc">Elder Tales is a game made for the Terminal. Based on the anime Log Horizon.</div>
+            <div className="desc">Elder Tales is a game made for the terminal based on the anime "Log Horizon".</div>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ class Home extends React.Component {
             <a target="_blank" href="https://github.com/Jacobaallen/TourDeEndofSummer">
               <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
             </a>
-            <div className="desc">Tour De End Of Summer is a information site to find out info on a bike ride.</div>
+            <div className="desc">Tour De End Of Summer is an event site to find out information about a bike ride.</div>
           </div>
         </div>
         <div className="responsive">
@@ -136,7 +136,7 @@ class Home extends React.Component {
             <a target="_blank" href="https://github.com/Jacobaallen/animehelper">
               <img src="images/AnimeFanHelper.png" alt="dishwish" width="800" height="400"/>
             </a>
-            <div className="desc">Anime Fan Helper, helps find info about anime's.</div>
+            <div className="desc">Anime Fan Helper is a website that helps to find information about anime.</div>
           </div>
         </div>
       </div>
