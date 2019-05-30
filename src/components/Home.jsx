@@ -107,7 +107,7 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="images/dishwish.png">
+            <a target="_blank" href="https://github.com/Jacobaallen/Dishwish">
               <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
             <div className="desc">Dishwish is a recipe finding app that uses the Recipepuppy API.</div>
@@ -150,7 +150,7 @@ class Home extends React.Component {
      <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
         Name:<br/>
         <input type="text" name="name"/><br/>
-        E-mail:<br/>
+        Email:<br/>
         <input type="text" name="mail"/><br/>
         Comment:<br/>
       <input type="text" name="comment" hight="20" width="50"/><br/><br/>
