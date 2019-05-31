@@ -35,7 +35,7 @@ body {
 
 .hero-image {
   display: flex;
-  background-image: url("/images/desktop-hero.JPG");
+  background-image: url("/images/desktop-hero-2.JPG");
   background-size: cover;
   background-attachment: fixed;
   height: 900px;
