@@ -133,10 +133,18 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://github.com/Jacobaallen/animehelper">
-              <img src="images/AnimeFanHelper.png" alt="dishwish" width="800" height="400"/>
+            <a target="_blank" href="https://anime-fan-helper.herokuapp.com/index.html">
+              <img src="images/AnimeFanHelper.png" alt="AnimeFanHelper" width="800" height="400"/>
             </a>
-            <div className="desc">Anime Fan Helper is a website that helps to find information about anime.</div>
+            <div className="desc">Anime Fan Helper is a website that helps to find information about anime. Using the Jikan API.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="https://whack-a-luffy.herokuapp.com/index.html">
+              <img src="images/whackaluffy.png" alt="whackaluffy" width="800" height="400"/>
+            </a>
+            <div className="desc">Based on the anime One Piece and the game Whack-a-mole comes Whack-a-Luffy.</div>
           </div>
         </div>
       </div>
