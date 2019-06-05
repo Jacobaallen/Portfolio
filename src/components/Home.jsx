@@ -125,7 +125,7 @@ class Home extends React.Component {
         <div className="row-2">
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://github.com/Jacobaallen/TourDeEndofSummer">
+            <a target="_blank" href="https://tourdeendofsummer.herokuapp.com/contact.html">
               <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
             </a>
             <div className="desc">Tour De End Of Summer is an event site to find out information about a bike ride.</div>
