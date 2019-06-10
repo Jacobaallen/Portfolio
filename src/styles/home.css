@@ -50,6 +50,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3rem;
@@ -63,6 +64,7 @@ body {
 .hero-text-2 {
   font-family: Courier, monospace;
 	display: inline-block;
+  width: 100%;
 }
 
 .typewriter-hero-text-2 {
@@ -75,6 +77,7 @@ body {
   font-weight: 700;
   border-right: 4px solid;
   box-sizing: border-box;
+  width: 100%;
 }
 
 @keyframes typing {
@@ -103,7 +106,8 @@ body {
 .about-master{
   display: flex;
   align-items: center;
-  padding: 2em;
+  padding: 2rem;
+  width: 100%;
 }
 
 .about-title{
@@ -146,6 +150,7 @@ a{
 
 .Languages-text{
   text-align: center;
+  width: 100%;
 }
 
 .Languages{
@@ -154,13 +159,14 @@ a{
   align-items: center;
   background-color: #B1C3CC;
   height: 400px;
-  width: auto;
+  width: 100%;
 }
 
 .bgimage-2 {
   background-image: url("/images/IMG_0120.jpeg");
   background-size: cover;
   height: 500px;
+  width: 100%;
   position: relative;
   background-attachment: fixed;
 }
@@ -170,6 +176,7 @@ a{
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -252,6 +259,7 @@ div.desc {
   background-size: cover;
   background-attachment:fixed;
   height: 300px;
+  width: 100%;
   text-align: center;
   justify-content: center;
   top: 70%;
@@ -266,6 +274,7 @@ div.desc {
   align-items: center;
   justify-content: space-around;
   font-size: 2rem;
+  width: 100%;
 }
 
 .contact-icons{
@@ -273,6 +282,7 @@ div.desc {
   align-items: center;
   justify-content:space-around;
   text-align: center;
+  width: 100%;
 }
 
 .social-media{
