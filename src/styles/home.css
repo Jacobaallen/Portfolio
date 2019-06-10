@@ -106,7 +106,7 @@ body {
 .about-master{
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: 2px;
   width: 100%;
 }
 
@@ -162,6 +162,14 @@ a{
   width: 100%;
 }
 
+@media only screen an (max-width: 600px) {
+    .Limage{
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+    }
+}
+
 .bgimage-2 {
   background-image: url("/images/IMG_0120.jpeg");
   background-size: cover;
@@ -180,7 +188,7 @@ a{
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-size: 8em;
+  font-size: 100px;
 }
 
 .masterResume{
@@ -266,7 +274,7 @@ div.desc {
   left: 50%;
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-size: 8em;
+  font-size: 100px;
 }
 
 .form{
