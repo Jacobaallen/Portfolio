@@ -262,6 +262,10 @@ div.desc {
     height: 100px;
     padding: 0;
     }
+
+  .form{
+    font-size: 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
