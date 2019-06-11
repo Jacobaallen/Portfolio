@@ -31,6 +31,11 @@ body {
   .navbar:not(.top-nav-collapse) {
     background: #3492D3 ;
   }
+
+  .Languages-images{
+    height: 100px;
+    padding: 0;
+    }
 }
 
 .hero-image {
@@ -173,7 +178,7 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
+  height: 230px;
   padding: 30px;
 }
 
@@ -248,7 +253,7 @@ div.desc {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
