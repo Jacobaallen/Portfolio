@@ -69,7 +69,6 @@ body {
 .hero-text-2 {
   font-family: Courier, monospace;
 	display: inline-block;
-  width: 100%;
 }
 
 .typewriter-hero-text-2 {
@@ -113,13 +112,6 @@ body {
   align-items: center;
   width: 100%;
   padding: 80px;
-}
-
-@media only screen an (max-width: 600px) {
-  .about-master{
-    padding: 80x;
-    background-color: red;
-  }
 }
 
 .about-title{
@@ -271,10 +263,36 @@ div.desc {
   .form{
     font-size: 0;
   }
+
+  .typewriter-hero-text-2 {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+   	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: 700;
+    border-right: 4px solid;
+    box-sizing: border-box;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
+    width: 100%;
+  }
+
+  .typewriter-hero-text-2 {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+   	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    border-right: 4px solid;
+    box-sizing: border-box;
     width: 100%;
   }
 }
