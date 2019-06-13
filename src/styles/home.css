@@ -257,8 +257,8 @@ div.desc {
   }
 
   .Languages-images{
-    height: 5em;
-    width: 5em;
+    height: 5rem;
+    width: 5rem;
     padding: 0;
     }
 
@@ -279,14 +279,6 @@ div.desc {
     width: 100%;
   }
 
-  .contact-master{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-icons{
-    padding: 4px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -305,6 +297,15 @@ div.desc {
     border-right: 4px solid;
     box-sizing: border-box;
     width: 100%;
+  }
+
+  .contact-master{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-icons{
+    padding: 4px;
   }
 }
 
