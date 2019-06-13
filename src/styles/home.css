@@ -257,8 +257,8 @@ div.desc {
   }
 
   .Languages-images{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     padding: 0;
     }
 
@@ -282,6 +282,10 @@ div.desc {
   .contact-master{
     display: flex;
     flex-direction: column;
+  }
+
+  .contact-icons{
+    padding: 4px;
   }
 }
 
