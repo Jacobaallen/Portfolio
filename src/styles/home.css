@@ -170,7 +170,8 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 230px;
+  height: 200px;
+  width: 200px;
   padding: 30px;
 }
 
@@ -256,7 +257,8 @@ div.desc {
   }
 
   .Languages-images{
-    height: 100px;
+    height: 80px;
+    width: 80px;
     padding: 0;
     }
 
