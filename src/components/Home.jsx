@@ -43,7 +43,10 @@ class Home extends React.Component {
             <p>Hi, I'm Jacob A. Allen</p>
           </div>
           <div className="hero-text-2">
-            <div className="typewriter-hero-text-2"> I'm a Full Stack Web Developer and I'm looking for a job.</div>
+            <div className="typewriter-hero-text-2"> I'm a Full Stack Web Developer</div>
+          </div>
+          <div className="hero-text-3">
+            <div className="typewriter-hero-text-3"> And I'm looking for a job</div>
           </div>
         </div>
       </div>
