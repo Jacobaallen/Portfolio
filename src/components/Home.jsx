@@ -65,11 +65,15 @@ class Home extends React.Component {
         I studied studio art at Florida Atlantic University. I took post graduate courses in web design and publication design at Palm Beach State College while working
         as a substitute teacher for the Palm Beach County School District. I decided to transform my art background into a technology based career and attended Wyncode.
         This came about from my interest in technology and curiosity about how the web works. Learning how to create and invent the technology myself was the next logical step so I learned to code. Now I'm looking for a job where I can show my skills and improve with the company that hires me.
-        Languages:
-        HTML5, CSS3, JavaScript, Python, JQuery, Ruby
-        Libraries:
-        JQuery, React.JS, AngularJS, Rails, React on Rails
       </p>
+      <div className="list">
+        <p>
+          Languages: HTML5, CSS3, JavaScript, Python, JQuery, Ruby
+        </p>
+        <p>
+          Libraries: JQuery, React.JS, AngularJS, Rails, React on Rails
+        </p>
+      </div>
       <div className="button-master">
           <div className="resume-download">
               <a href='my-resume-8.pdf' download>Download Resume</a>
