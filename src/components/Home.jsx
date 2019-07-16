@@ -68,7 +68,7 @@ class Home extends React.Component {
       </p>
       <div className="list">
         <p>
-          Languages: HTML5, CSS3, JavaScript, Python, JQuery, Ruby
+          Languages: HTML5, CSS3, JavaScript, PHP, Ruby
         </p>
         <p>
           Libraries: JQuery, React.JS, AngularJS, Rails, React on Rails
