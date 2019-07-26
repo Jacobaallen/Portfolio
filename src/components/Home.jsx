@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
+import email from './email.php';
 
 class Home extends React.Component {
  render() {
@@ -76,7 +77,7 @@ class Home extends React.Component {
       </div>
       <div className="button-master">
           <div className="resume-download">
-              <a href='my-resume-8.pdf' download>Download Resume</a>
+              <a href='my-resume-10.pdf' download>Download Resume</a>
           </div>
         <div className="contact-button">
             <a className="contact-button" href="#contact">Contact Me</a>
@@ -142,7 +143,7 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://anime-fan-helper.herokuapp.com/index.html">
+            <a target="_blank" href="http://www.animefanhelper.com">
               <img src="images/AnimeFanHelper.png" alt="AnimeFanHelper" width="800" height="400"/>
             </a>
             <div className="desc">Anime Fan Helper is a website that helps to find information about anime. Using the Jikan API.</div>
@@ -164,16 +165,22 @@ class Home extends React.Component {
 
   <div className="contact-master">
    <div className="form">
-     <form action="mailto:jacob@jacobaallen.com" method="post" encType="text/plain">
-        Name:<br/>
-        <input type="text" name="name"/><br/>
-        Email:<br/>
-        <input type="text" name="mail"/><br/>
-        Comment:<br/>
-      <input type="text" name="comment" hight="20" width="50"/><br/><br/>
-        <input type="submit" value="Send"/>
-        <input type="reset" value="Reset"/>
-      </form>
+      <form action="/action_page.php">
+       <label>First Name</label>
+       <input type="text"id="fname"name="firstname"placeholder="yourName.."/>
+       <label>Last Name</label>
+       <input type="text"id="lname" name="lastname" placeholder="yourLastName.."/>
+
+
+       <label>Email</label>
+       <input type ="email"id="email"name="email"placeholder="yourEmail"/>
+
+
+       <label>Subject</label>
+       <text area id="subject"name="subject"placeholder="writeSomething.."></text>
+       <input type="submit"value="Submit"/>
+     </form>
+
     </div>
 
     <div className="contact-icons">
