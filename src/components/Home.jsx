@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/home.css';
-import email from './email.php';
 
 class Home extends React.Component {
  render() {
@@ -109,7 +108,7 @@ class Home extends React.Component {
      <div className="projects" id="projects">
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://beat-blender.herokuapp.com/">
+            <a href="https://beat-blender.herokuapp.com/">
               <img src="images/BeatBleader.png" alt="" width="800" height="400"/>
             </a>
             <div className="desc">BeatBleader uses Geolocation and the Spotify API to connect you with other people around you through music.</div>
@@ -117,7 +116,7 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://github.com/Jacobaallen/Dishwish">
+            <a href="https://github.com/Jacobaallen/Dishwish">
               <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
             <div className="desc">Dishwish is a recipe finding app that uses the Recipepuppy API.</div>
@@ -125,7 +124,7 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://github.com/Jacobaallen/Weekend-Game-2">
+            <a href="https://github.com/Jacobaallen/Weekend-Game-2">
               <img src="images/game.png" alt="game" width="800" height="400"/>
             </a>
             <div className="desc">Elder Tales is a game made for the terminal based on the anime "Log Horizon".</div>
@@ -135,7 +134,7 @@ class Home extends React.Component {
         <div className="row-2">
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://tourdeendofsummer.herokuapp.com/index.html">
+            <a href="https://tourdeendofsummer.herokuapp.com/index.html">
               <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
             </a>
             <div className="desc">Tour De End Of Summer is an event site to find out information about a bike ride.</div>
@@ -143,18 +142,36 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="http://www.animefanhelper.com">
+            <a href="http://www.animefanhelper.com">
               <img src="images/AnimeFanHelper.png" alt="AnimeFanHelper" width="800" height="400"/>
             </a>
             <div className="desc">Anime Fan Helper is a website that helps to find information about anime. Using the Jikan API.</div>
           </div>
         </div>
+      </div>
+        <div className="row-3">
         <div className="responsive">
           <div className="gallery">
-            <a target="_blank" href="https://whack-a-luffy.herokuapp.com/index.html">
-              <img src="images/whackaluffy.png" alt="whackaluffy" width="800" height="400"/>
+            <a href="http://www.animefanhelper.com/whackaluffy.html">
+              <img src="images/whackaluffy0.png" alt="whackaluffy" width="800" height="400"/>
             </a>
             <div className="desc">Based on the anime One Piece and the game Whack-a-mole comes Whack-a-Luffy.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a href="http://www.animefanhelper.com/space-invaders.html">
+              <img src="images/arcade-game-si.png" alt="Space-invaders" width="800" height="400"/>
+            </a>
+            <div className="desc">Based on the most game popular ever made.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a href="http://www.animefanhelper.com/cowboybebopspacebattle.html">
+              <img src="images/arcade-game-CBSB.png" alt="Cowboy-Bebop" width="800" height="400"/>
+            </a>
+            <div className="desc">Based on the anime Cowboy Bebop comes a first person shooter game.</div>
           </div>
         </div>
       </div>
@@ -164,24 +181,7 @@ class Home extends React.Component {
      </div>
 
   <div className="contact-master">
-   <div className="form">
-      <form action="/action_page.php">
-       <label>First Name</label>
-       <input type="text"id="fname"name="firstname"placeholder="yourName.."/>
-       <label>Last Name</label>
-       <input type="text"id="lname" name="lastname" placeholder="yourLastName.."/>
 
-
-       <label>Email</label>
-       <input type ="email"id="email"name="email"placeholder="yourEmail"/>
-
-
-       <label>Subject</label>
-       <text area id="subject"name="subject"placeholder="writeSomething.."></text>
-       <input type="submit"value="Submit"/>
-     </form>
-
-    </div>
 
     <div className="contact-icons">
       <div>

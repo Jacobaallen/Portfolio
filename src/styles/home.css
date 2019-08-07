@@ -236,6 +236,13 @@ a{
   align-items: center;
 }
 
+.row-3{
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  align-items: center;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
