@@ -184,7 +184,22 @@ class Home extends React.Component {
 
 
     <div className="contact-icons">
-      <div>
+        <div className="form">
+        <form action="https://formspree.io/jacob@jacobaallen.com" method="POST" class="contact_form" id="contact_form">
+          <div className="wrap">
+            <input name="name" id="name" type="text" placeholder="Your Name"/>
+          </div>
+          <div className="wrap">
+            <input name="_replyto" id="email" type="text" placeholder="Your Email"/>
+          </div>
+          <div className="wrap">
+            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+          </div>
+          <div className="arlo_tm_button">
+            <button type="submit">Send your message</button>
+          </div>
+        </form>
+
         <div className="icons-4">
           <img src="images/email-icon.png" alt="email" height="100" />
           <p>jacob@jacobaallen.com</p>
@@ -192,6 +207,7 @@ class Home extends React.Component {
         <div className="icons-5">
           <img src="images/phone-icon-circle.png" alt="phone" height="100" width="100"/>
           <p>(561) 315-5460</p>
+
         </div>
       </div>
     </div>
