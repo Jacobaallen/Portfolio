@@ -358,6 +358,11 @@ div.desc {
   .contact-icons{
     padding: 4px;
   }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .contact-master{
