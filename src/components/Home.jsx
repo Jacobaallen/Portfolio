@@ -94,6 +94,7 @@ class Home extends React.Component {
       <img src="images/css-logo.png" alt="cssLogo" className="Languages-images"/>
       <img src="images/js-logo.png" alt="jsLogo" className="Languages-images"/>
       <img src="images/Ruby-logo.png" alt="rubyLogo" className="Languages-images"/>
+      <img src="images/PHP.png" alt="PHPLogo" className="Languages-images" />
     </div>
   </div>
 
