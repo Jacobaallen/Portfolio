@@ -187,16 +187,19 @@ class Home extends React.Component {
         <div className="form">
         <form action="https://formspree.io/jacob@jacobaallen.com" method="POST" class="contact_form" id="contact_form">
           <div className="wrap">
+            <p>Name:</p>
             <input name="name" id="name" type="text" placeholder="Your Name"/>
           </div>
           <div className="wrap">
+            <p>Email:</p>
             <input name="_replyto" id="email" type="text" placeholder="Your Email"/>
           </div>
           <div className="wrap">
+            <p>Message:</p>
             <textarea name="message" id="message" placeholder="Your Message"></textarea>
           </div>
           <div className="arlo_tm_button">
-            <button type="submit">Send your message</button>
+            <button type="submit">Send</button>
           </div>
         </form>
 
