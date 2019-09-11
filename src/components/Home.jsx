@@ -27,6 +27,9 @@ class Home extends React.Component {
               <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#languages">Languages</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
@@ -86,9 +89,9 @@ class Home extends React.Component {
   </div>
 
   <div className="Languages-text">
-    <h1>Languages</h1>
+    <h1>Programming Languages</h1>
   </div>
-  <div className="Languages">
+  <div className="Languages" id="languages">
     <div className="Languages-images">
       <img src="images/html-logo.png" alt="htmlLogo" className="Languages-images"/>
       <img src="images/css-logo.png" alt="cssLogo" className="Languages-images"/>
@@ -206,7 +209,7 @@ class Home extends React.Component {
 
         <div className="icons-4">
           <img src="images/email-icon.png" alt="email" height="100" />
-          <p>jacob@jacobaallen.com</p>
+          <p>boat.mon@gmail.com</p>
         </div>
         <div className="icons-5">
           <img src="images/phone-icon-circle.png" alt="phone" height="100" width="100"/>
