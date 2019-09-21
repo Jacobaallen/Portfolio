@@ -120,14 +120,6 @@ class Home extends React.Component {
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a href="https://github.com/Jacobaallen/Dishwish">
-              <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
-            </a>
-            <div className="desc">Dishwish is a recipe finding app that uses the Recipepuppy API.</div>
-          </div>
-        </div>
-        <div className="responsive">
-          <div className="gallery">
             <a href="https://github.com/Jacobaallen/Weekend-Game-2">
               <img src="images/game.png" alt="game" width="800" height="400"/>
             </a>
