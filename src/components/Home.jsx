@@ -9,36 +9,6 @@ class Home extends React.Component {
       <div className="top">
       </div>
 
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <a className="navbar-brand" href="#home">
-          <img src="images/logosmall.png" height="30" alt="jaa logo"/>
-        </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="#home">Home
-                <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#languages">Languages</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
 
       <div className="hero-image" id="home">
         <div className="hero-text-master">
@@ -197,7 +167,7 @@ class Home extends React.Component {
 
     <div className="contact-icons">
         <div className="form">
-        <form action="https://formspree.io/jacob@jacobaallen.com" method="POST" class="contact_form" id="contact_form">
+        <form action="https://formspree.io/jacob@jacobaallen.com" method="POST" className="contact_form" id="contact_form">
           <div className="wrap">
             <p>Name:</p>
             <input name="name" id="name" type="text" placeholder="Your Name"/>
