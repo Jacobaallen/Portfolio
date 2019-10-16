@@ -31,4 +31,9 @@ body {
   .navbar:not(.top-nav-collapse) {
     background: #3492D3 ;
   }
+
+  .Languages-images{
+    height: 100px;
+    padding: 0;
+    }
 }
