@@ -105,29 +105,13 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
-        <div className="row-2">
+      <div className="row-2">
         <div className="responsive">
           <div className="gallery">
-            <a href="https://tourdeendofsummer.herokuapp.com/index.html">
-              <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
+            <a href="https://southeast-realty-group.herokuapp.com/index.html">
+              <img src="images/SE-website.png" alt="southeast-realty-group" width="800" height="400"/>
             </a>
-            <div className="desc">A event sited I create using Adobe Dreamweaver in 2016.</div>
-          </div>
-        </div>
-        <div className="responsive">
-          <div className="gallery">
-            <a href="http://garyramey.com/student-work/gra2144c-sp2016/jallen/project2/index.html">
-              <img src="images/ecommerce-site.png" alt="JaKob" width="800" height="400"/>
-            </a>
-            <div className="desc">A mock up ecommerce site I created using Adobe Muse in 2016.</div>
-          </div>
-        </div>
-        <div className="responsive">
-          <div className="gallery">
-            <a href="http://garyramey.com/student-work/gra2144c-sp2016/jallen/project1/index.html">
-              <img src="images/event-site.png" alt="event" width="800" height="400"/>
-            </a>
-            <div className="desc">A mock up event site I created using Adobe Muse in 2016.</div>
+            <div className="desc">This site was created for Southeast Realty Group inc. Created in 2019.</div>
           </div>
         </div>
       </div>
@@ -157,6 +141,33 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
+      <div className="row-3">
+        <div className="responsive">
+          <div className="gallery">
+            <a href="https://tourdeendofsummer.herokuapp.com/index.html">
+              <img src="images/Tourdeendofsummer.png" alt="TourDeEndofSummer" width="800" height="400"/>
+            </a>
+            <div className="desc">A event sited I create using Adobe Dreamweaver in 2016.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a href="http://garyramey.com/student-work/gra2144c-sp2016/jallen/project2/index.html">
+              <img src="images/ecommerce-site.png" alt="JaKob" width="800" height="400"/>
+            </a>
+            <div className="desc">A mock up ecommerce site I created using Adobe Muse in 2016.</div>
+          </div>
+        </div>
+        <div className="responsive">
+          <div className="gallery">
+            <a href="http://garyramey.com/student-work/gra2144c-sp2016/jallen/project1/index.html">
+              <img src="images/event-site.png" alt="event" width="800" height="400"/>
+            </a>
+            <div className="desc">A mock up event site I created using Adobe Muse in 2016.</div>
+          </div>
+        </div>
+      </div>
+
 
      <div className="contact-text" id="contact">
        <p>Contact</p>
