@@ -20,16 +20,19 @@ class Nav extends Component{
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="/#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#languages">Languages</a>
+              <a className="nav-link" href="/art">Art</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Portfolio</a>
+              <a className="nav-link" href="/#languages">Languages</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className="nav-link" href="/#portfolio">Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/#contact">Contact</a>
             </li>
           </ul>
         </div>
