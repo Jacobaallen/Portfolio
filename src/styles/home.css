@@ -188,9 +188,7 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
   width: 200px;
-  padding: 30px;
 }
 
 .bgimage-2 {
@@ -280,12 +278,6 @@ div.desc {
   .about-master{
     padding: 0;
   }
-
-  .Languages-images{
-    height: 5rem;
-    width: 5rem;
-    padding: 0;
-    }
 
   .form{
     font-size: 0;
