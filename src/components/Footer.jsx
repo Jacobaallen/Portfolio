@@ -16,6 +16,11 @@ class Footer extends Component{
               <img src="images/linkin-cicle.png" alt="linkedin" height="50" width="50"/>
             </a>
           </div>
+          <div className="linkin">
+            <a href="https://www.instagram.com/jacobaallen/">
+              <img src="images/instagram-logo.png" alt="instagram" height="50" width="50"/>
+            </a>
+          </div>
         </div>
         <div className="copyright">
           <p>All Rights Reserved Copyright 2019 Jacob A. Allen</p>
