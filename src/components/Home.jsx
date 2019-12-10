@@ -75,6 +75,32 @@ class Home extends React.Component {
    </div>
 
      <div className="projects" id="projects">
+       <div className="responsive">
+         <div className="gallery">
+           <a href="http://www.animefanhelper.com">
+             <img src="images/AnimeFanHelper.png" alt="AnimeFanHelper" width="800" height="400"/>
+           </a>
+           <div className="desc">Anime Fan Helper is a mulltifunction website that has anime related news stories, anime theme games, and your able to search for any anime you want using the Jikan API. I Created it in 2019 and keep updating it.</div>
+         </div>
+       </div>
+       <div className="responsive">
+         <div className="gallery">
+           <a href="https://www.southeastrealtygroup.net/">
+             <img src="images/SE-website.png" alt="southeast-realty-group" width="800" height="400"/>
+           </a>
+           <div className="desc"> I created this site in 2019 for the company Southeast Realty Group Inc.</div>
+         </div>
+       </div>
+       <div className="responsive">
+         <div className="gallery">
+           <a href="https://github.com/Jacobaallen/Ichi.world">
+             <img src="images/Untitle-Travel.png" alt="Untitle-Travel" width="800" height="400"/>
+           </a>
+           <div className="desc">This site current being built. It is a weekend travel app design to help users find things to do on the weekend. I am currently making it in 2019.</div>
+         </div>
+       </div>
+      </div>
+      <div className="row-2">
         <div className="responsive">
           <div className="gallery">
             <a href="https://beat-blender.herokuapp.com/">
@@ -88,25 +114,15 @@ class Home extends React.Component {
             <a href="https://github.com/Jacobaallen/Weekend-Game-2">
               <img src="images/game.png" alt="game" width="800" height="400"/>
             </a>
-            <div className="desc">Elder Tales is a game made for the terminal based on the anime "Log Horizon". I created in 2019.</div>
+            <div className="desc">Elder Tales is a game made for the terminal based on the anime "Log Horizon". I created it in 2019.</div>
           </div>
         </div>
         <div className="responsive">
           <div className="gallery">
-            <a href="http://www.animefanhelper.com">
-              <img src="images/AnimeFanHelper.png" alt="AnimeFanHelper" width="800" height="400"/>
+            <a href="https://github.com/rmbeavin/DishWish">
+              <img src="images/dishwish.png" alt="dishwish" width="800" height="400"/>
             </a>
-            <div className="desc">Anime Fan Helper is a website that helps to find information about anime. Using the Jikan API. Created in 2019.</div>
-          </div>
-        </div>
-      </div>
-      <div className="row-2">
-        <div className="responsive">
-          <div className="gallery">
-            <a href="https://www.southeastrealtygroup.net/">
-              <img src="images/SE-website.png" alt="southeast-realty-group" width="800" height="400"/>
-            </a>
-            <div className="desc">This site was created for Southeast Realty Group inc. Created in 2019.</div>
+            <div className="desc">Dishwish was a team project made with a team at Wyncode. I was a part of. We created it in 2018.</div>
           </div>
         </div>
       </div>
@@ -161,6 +177,9 @@ class Home extends React.Component {
             <div className="desc">A mock up event site I created using Adobe Muse in 2016.</div>
           </div>
         </div>
+      </div>
+      <div className= "Art-Archive">
+        <a className="nav-link" href="/Art">Jacob's Art, Art Archives</a>
       </div>
 
 
