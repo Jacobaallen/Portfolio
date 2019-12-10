@@ -103,7 +103,7 @@ class Home extends React.Component {
       <div className="row-2">
         <div className="responsive">
           <div className="gallery">
-            <a href="https://southeast-realty-group.herokuapp.com/index.html">
+            <a href="https://www.southeastrealtygroup.net/">
               <img src="images/SE-website.png" alt="southeast-realty-group" width="800" height="400"/>
             </a>
             <div className="desc">This site was created for Southeast Realty Group inc. Created in 2019.</div>
