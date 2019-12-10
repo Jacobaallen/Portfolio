@@ -1,14 +1,15 @@
 .footer{
   background-color: #3492D3;
+  height: 120px;
   text-align: center;
-  top: 50%;
-  height: 10em;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-media{
   display: flex;
   justify-content: center;
-  padding: 1em;
   height: auto;
 }
 
