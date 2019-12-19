@@ -6,7 +6,7 @@ class Nav extends Component{
   render () {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="/">
           <img src="images/logosmall.png" height="30" alt="jaa logo"/>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
