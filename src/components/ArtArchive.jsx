@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/art-archive.css';
 
-class ArtArchive extends React.Component {
+class Artarchive extends React.Component {
  render() {
    return (
      <div className="comingsoon">
@@ -11,4 +11,4 @@ class ArtArchive extends React.Component {
  }
 }
 
-export default ArtArchive;
+export default Artarchive;

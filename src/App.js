@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Art from './components/Art';
-import ArtArchive from './components/ArtArchive';
+import Artarchive from './components/Artarchive';
 
 
 class App extends React.Component {
@@ -14,7 +14,7 @@ class App extends React.Component {
         <Nav/>
         <Route exact path="/" component={Home} />
         <Route exact path="/art" component={Art} />
-        <Route exact path="/artarchive" component={ArtArchive} />
+        <Route exact path="/artarchive" component={Artarchive} />
         <Footer/>
       </Router>
     )
